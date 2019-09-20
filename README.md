@@ -5,4 +5,4 @@ The model I trained is saved and then it used again in order to test new images.
 Model had 85% of accuracy for trained data and 70% of accuracy for testing data.
 I trained the model for 35 epochs and can improve the accuracy by increasing number of epochs.
 To create the neural network I used API keras and it did the work pretty well.
-All the codes and the trained model can be found in  this repo with the tutorials I used for my guidance.
+All the codes, trained model,sample images can be found in  this repo with the tutorials I used for my guidance.
