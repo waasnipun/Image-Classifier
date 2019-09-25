@@ -30,8 +30,8 @@ def upload():
     new_model = keras.models.load_model('Trained_model.h5')
     #new_model.summary()
     y_binary = to_categorical(y_test)
-    loss,acc = new_model.evaluate(x_test,y_binary)
-    print("Accuracy of the saved model: {:5.2f}%".format(100*acc))
+    #loss,acc = new_model.evaluate(x_test,y_binary)
+    #print("Accuracy of the saved model: {:5.2f}%".format(100*acc))
     class_names = ["airplane","automobile","bird","cat","deer","dog","frog","horse","ship","truck"]
 
     target = os.path.join(APP_ROOT, 'images/')
